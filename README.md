@@ -23,12 +23,12 @@ Your final report should include each of the following:
 
 ### Feature Normalization
 
-![summary_table](images\befor_norm.JPG)
+![summary_table](images/befor_norm.JPG)
 
 * first performing feature scaling can make gradient descent converge much more quickly.
 Subtract the mean value of each feature from the dataset. After subtracting the mean, additionally scale (divide) the feature values by their respective “standard deviations.” The standard deviation is a way of measuring how much variation there is in the range of values of a particular feature (most data points will lie within ±2 standard deviations of the mean); this is an alternative to taking the range of values (max-min).
 
-![school_summary_display](images\after_norm.JPG)
+![school_summary_display](images/after_norm.JPG)
 
 * Selecting learning rates
 
@@ -40,7 +40,7 @@ After the last iteration, plot the J values against the number of the iterations
 
 If you picked a learning rate within a good range, your plot look similar as the following Figure.
 
-![Tp_Performing_School](images\lr.JPG)
+![Tp_Performing_School](images/lr.JPG)
 
 ### Normal Equations
 In the lecture videos, you learned that the closed-form solution to linear regression is
@@ -52,7 +52,7 @@ First, we will reload the data to ensure that the variables have not been modifi
 
 Fiding the errors after making a prediction 
 
-![Btt_Performing_School](images\error.JPG)
+![Btt_Performing_School](images/error.JPG)
 
 # Logistic Regression with Python
 
@@ -74,7 +74,7 @@ This data set contains the following features:
 
 ### Sigmoid Function
 
-![summary_table](images\sigmoid.JPG)
+![summary_table](images/sigmoid.JPG)
 
 * $$ h_\theta(x) = g(\theta^T x)$$
 where function $g$ is the sigmoid function. The sigmoid function is defined as:
@@ -106,7 +106,7 @@ $$ J(\theta) = \frac{1}{m} \sum_{i=1}^m \left[ -y^{(i)}\log \left( h_\theta \lef
 
 Fiding the errors after making a prediction 
 
-![Btt_Performing_School](images\error-log.JPG)
+![Btt_Performing_School](images/error-log.JPG)
 
 
 
